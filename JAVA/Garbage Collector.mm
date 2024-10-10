@@ -1,0 +1,70 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#00b439" CREATED="1489685992080" ID="ID_1761658065" LINK="Java%20SE.mm" MODIFIED="1510732697604" TEXT="Garbage Collector">
+<edge COLOR="#00b439" STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1490271488102" ID="ID_1948874427" MODIFIED="1500479257238" POSITION="right" TEXT="&#x430;&#x43b;&#x433;&#x43e;&#x440;&#x438;&#x442;&#x43c;&#x44b;">
+<edge COLOR="#990000" WIDTH="1"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1500471484574" MODIFIED="1500471484574" TEXT="Serial">
+<node COLOR="#111111" CREATED="1500471926218" MODIFIED="1500471926218" TEXT="-XX:+UseSerialGC"/>
+<node COLOR="#111111" CREATED="1500477344574" MODIFIED="1500477350785" TEXT="&#x43c;&#x430;&#x43d;&#x438;&#x43f;&#x443;&#x43b;&#x44f;&#x446;&#x438;&#x438; &#x441; Ratio"/>
+<node COLOR="#111111" CREATED="1500477363236" MODIFIED="1500477367864" TEXT="&#x434;&#x43e; 100&#x43c;&#x431;"/>
+<node COLOR="#111111" CREATED="1500477685629" MODIFIED="1500477927558" TEXT="&#x434;&#x43e; 98% overhead with 2% profit">
+<node COLOR="#111111" CREATED="1500477766181" MODIFIED="1500477778001" TEXT="OutOfMemory"/>
+</node>
+<node COLOR="#111111" CREATED="1500477819453" MODIFIED="1500477823913" TEXT="1 &#x43f;&#x43e;&#x442;&#x43e;&#x43a;"/>
+</node>
+<node COLOR="#111111" CREATED="1500477335096" MODIFIED="1500477335096" TEXT="Parallel">
+<node COLOR="#111111" CREATED="1500477361446" MODIFIED="1500477361446" TEXT="-XX:+UseParallelGC"/>
+<node COLOR="#111111" CREATED="1500477909524" MODIFIED="1500477918887" TEXT="&#x43a;&#x430;&#x436;&#x434;&#x44b;&#x439; &#x43f;&#x43e;&#x442;&#x43e;&#x43a; - &#x441;&#x432;&#x43e;&#x439; &#x431;&#x443;&#x444;&#x435;&#x440;"/>
+<node COLOR="#111111" CREATED="1500478018837" MODIFIED="1500478025937" TEXT="&#x430;&#x432;&#x442;&#x43e;&#x43c;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x430;&#x44f; &#x43f;&#x43e;&#x434;&#x441;&#x442;&#x440;&#x43e;&#x439;&#x43a;&#x430;"/>
+</node>
+<node COLOR="#111111" CREATED="1500479255848" MODIFIED="1500479255848" TEXT="CMS">
+<node COLOR="#111111" CREATED="1500479275753" MODIFIED="1500479275753" TEXT="-XX:+UseConcMarkSweepGC"/>
+<node COLOR="#111111" CREATED="1500479578476" MODIFIED="1500479585905" TEXT="&#x43c;&#x430;&#x43b;&#x430;&#x44f; &#x441;&#x431;&#x43e;&#x440;&#x43a;&#x430; &#x442;&#x430;&#x43a;&#x430;&#x44f; &#x436;&#x435;"/>
+<node COLOR="#111111" CREATED="1500479586269" MODIFIED="1500479589609" TEXT="&#x441;&#x442;&#x430;&#x440;&#x448;&#x430;&#x44f; &#x441;&#x431;&#x43e;&#x440;&#x43a;&#x430;">
+<node COLOR="#111111" CREATED="1500479769573" MODIFIED="1500479776480" TEXT="&#x441; &#x43c;&#x438;&#x43d;&#x438; &#x43f;&#x430;&#x443;&#x437;&#x430;&#x43c;&#x438;"/>
+</node>
+<node COLOR="#111111" CREATED="1500479620021" MODIFIED="1500479626376" TEXT="&#x441;&#x431;&#x43e;&#x439; &#x43a;&#x43e;&#x43d;&#x43a;&#x443;&#x440;&#x435;&#x43d;&#x442;&#x43d;&#x43e;&#x433;&#x43e; &#x440;&#x435;&#x436;&#x438;&#x43c;&#x430;"/>
+<node COLOR="#111111" CREATED="1500479745157" MODIFIED="1500479750385" TEXT="&#x43f;&#x43b;&#x430;&#x432;&#x430;&#x44e;&#x449;&#x438;&#x439; &#x43c;&#x443;&#x441;&#x43e;&#x440;"/>
+<node COLOR="#111111" CREATED="1500479755516" MODIFIED="1500479759752" TEXT="&#x43d;&#x435; &#x443;&#x43f;&#x43b;&#x43e;&#x442;&#x43d;&#x44f;&#x435;&#x442;"/>
+</node>
+<node COLOR="#111111" CREATED="1500479810942" MODIFIED="1500479814273" TEXT="G1">
+<node COLOR="#111111" CREATED="1500479900576" MODIFIED="1500479900576" TEXT="-XX:+UseG1GC"/>
+<node COLOR="#111111" CREATED="1500479946580" MODIFIED="1500479957264" TEXT="&#x440;&#x435;&#x433;&#x438;&#x43e;&#x43d;&#x44b; &#x43f;&#x43e; 1-32&#x41c;&#x431;">
+<node COLOR="#111111" CREATED="1500479958230" MODIFIED="1500479963529" TEXT="&#x43f;&#x43e;&#x43a;&#x43e;&#x43b;&#x435;&#x43d;&#x438;&#x44f; &#x43b;&#x43e;&#x433;&#x438;&#x447;&#x435;&#x441;&#x43a;&#x438;&#x435;"/>
+</node>
+<node COLOR="#111111" CREATED="1500480084021" MODIFIED="1500480097128" TEXT="&#x443;&#x433;&#x430;&#x434;&#x44b;&#x432;&#x430;&#x435;&#x442; &#x440;&#x435;&#x433;&#x438;&#x43e;&#x43d;&#x44b; &#x441; &#x43d;&#x430;&#x438;&#x431;&#x43e;&#x43b;&#x44c;&#x448;&#x438;&#x43c; &#x43c;&#x443;&#x441;&#x43e;&#x440;&#x43e;&#x43c;"/>
+<node COLOR="#111111" CREATED="1500480097957" MODIFIED="1500480110953" TEXT="&#x43f;&#x43e;&#x43b;&#x43d;&#x430;&#x44f; &#x441;&#x431;&#x43e;&#x440;&#x43a;&#x430; = &#x441;&#x43c;&#x435;&#x448;&#x430;&#x43d;&#x43d;&#x430;&#x44f;"/>
+<node COLOR="#111111" CREATED="1500480183452" MODIFIED="1500480197904" TEXT="&#x436;&#x438;&#x432;&#x44b;&#x435; &#x432;&#x441;&#x435; &#x43d;&#x430; &#x43c;&#x43e;&#x43c;&#x435;&#x43d;&#x442; &#x43d;&#x430;&#x447;&#x430;&#x43b;&#x430; marking + new"/>
+</node>
+<node COLOR="#111111" CREATED="1505206730154" MODIFIED="1505206731184" TEXT="Shenandoah">
+<node COLOR="#111111" CREATED="1505206748306" MODIFIED="1505206826807" TEXT="add concurrent compaction"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1489689106985" ID="ID_598164029" MODIFIED="1492161597695" POSITION="left" TEXT="finalize()">
+<edge COLOR="#990000" WIDTH="1"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1490872545471" MODIFIED="1490964727912" TEXT="System.runFinalization()">
+<edge COLOR="#111111" WIDTH="thin"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1489689154038" ID="ID_1164548385" MODIFIED="1492161597695" POSITION="left" TEXT="System.gc()">
+<edge COLOR="#990000" WIDTH="1"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1490872550581" MODIFIED="1490964727912" TEXT="&#x440;&#x435;&#x43a;&#x43e;&#x43c;&#x435;&#x43d;&#x434;&#x443;&#x435;&#x442;">
+<edge COLOR="#111111" WIDTH="thin"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1500480039789" ID="ID_624424406" MODIFIED="1500536171755" POSITION="left" TEXT="&#x43f;&#x440;&#x438; &#x43f;&#x435;&#x440;&#x435;&#x43d;&#x43e;&#x441;&#x435; &#x438;&#x437; Eden &#x432; Old &#x432;&#x441;&#x435;&#x433;&#x434;&#x430; SWT">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1500472575540" ID="ID_1741737299" MODIFIED="1500536171756" POSITION="left" TEXT="&#x441;&#x43b;&#x430;&#x431;&#x430;&#x44f; &#x433;&#x438;&#x43f;&#x43e;&#x442;&#x435;&#x437;&#x430; &#x43e; &#x43f;&#x43e;&#x43a;&#x43e;&#x43b;&#x435;&#x43d;&#x438;&#x44f;&#x445;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1500537215743" ID="ID_559421647" MODIFIED="1500537215743" POSITION="left" TEXT="mark-sweep-compact">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</map>
